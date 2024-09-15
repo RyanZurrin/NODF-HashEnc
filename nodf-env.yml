@@ -1,0 +1,19 @@
+name: nodf3
+channels:
+  - defaults
+  - pytorch
+
+dependencies:
+  - python=3.8
+  - pip=23.0.1
+  - torchvision==0.15.0
+  - pytorch==2.0.0
+  - torchaudio==2.0.0
+  - pip:
+      - nibabel==5.0.1
+      - dipy==1.6.0
+      - pytorch-lightning==2.1.0
+      - tensorboard==2.14
+      - jupyterlab
+      - image-similarity-measures==0.3.6
+      - ax-platform

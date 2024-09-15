@@ -27,3 +27,11 @@ data/gt_gfa.nii.gz
 data/gt_dti.nii.gz
 data/train_signal_b0_average.pt
 data/train_signal*
+
+# add ignores for pycham ide
+.idea/
+
+# add ignores for vscode
+.vscode/
+
+nodf-all-packages.yml
